@@ -75,7 +75,7 @@ Open your browser at:
 http://localhost:5173
 
 🌐 Live Demo
-
+https://gerald-2-ine.github.io/hng-ticket-app-react/
 💻 GitHub Repository: https://github.com/gerald-2-ine/hng-ticket-app-react
 
 🧪 How It Works
