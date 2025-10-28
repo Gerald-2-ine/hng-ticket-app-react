@@ -1,70 +1,104 @@
-# Getting Started with Create React App
+# 🎟️ Ticket Management System (React Implementation)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a **Ticket Management Web Application** built using **React.js** as part of the HNG Internship Task.  
+It allows users to **sign up, log in, create tickets, view tickets, and manage support requests** seamlessly in real time.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🚀 Features
 
-### `npm start`
+- 📝 User authentication (Sign Up & Login)
+- 💬 Create, view, and manage tickets
+- 🔔 Real-time ticket updates on the dashboard
+- ✅ Success and error notifications
+- 📱 Responsive design with modern UI
+- 🧭 Routing between Login, Signup, and Dashboard pages
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🛠️ Tech Stack
 
-### `npm test`
+| Category | Tools |
+|-----------|-------|
+| Frontend | React.js, React Router DOM |
+| Styling | CSS (custom styles in `styles/` folder) |
+| Notifications | React Toastify |
+| State Management | useState, useEffect (React Hooks) |
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 📂 Folder Structure
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+ticket-management-react/
+├── public/
+├── src/
+│ ├── pages/
+│ │ ├── Login.jsx
+│ │ ├── Signup.jsx
+│ │ ├── Dashboard.jsx
+│ ├── styles/
+│ │ ├── auth.css
+│ │ ├── dashboard.css
+│ ├── App.jsx
+│ ├── index.jsx
+│ └── main.jsx
+├── package.json
+└── README.md
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## ⚙️ Installation & Setup
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Gerald-2-ine/hng-ticket-app-react.git
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Navigate into the project folder:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+cd ticket-management-react
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Install dependencies:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+npm install
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Run the development server:
 
-### Analyzing the Bundle Size
+npm run dev
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
+Open your browser at:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+http://localhost:5173
 
-### Advanced Configuration
+🌐 Live Demo
+https://gerald-2-ine.github.io/hng-ticket-app-react/
+💻 GitHub Repository: https://github.com/gerald-2-ine/hng-ticket-app-react
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+🧪 How It Works
 
-### Deployment
+Signup Page: New users can register an account.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Login Page: Registered users can sign in securely.
 
-### `npm run build` fails to minify
+Dashboard Page: Displays tickets and live updates.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Toast Notifications: Show success and error messages at the top of the screen.
+
+📸 UI Preview
+Page	Screenshot
+Login Page	✨ Clean authentication form
+Signup Page	🪄 Smooth registration interface
+Dashboard	💼 Displays ticket data and updates in real time
+👨‍💻 Author
+
+Name: Geraldine Ugonabo (Monalisa)
+Internship: HNG Internship 13 — Frontend Track
+Tech Stack: React.js, CSS, JavaScript
+
+📜 License
+
+This project is open-source and available under the MIT License
