@@ -1,0 +1,50 @@
+/* ===== Toast Notification Styling ===== */
+.toast {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  background: white;
+  border-radius: 8px;
+  padding: 12px 20px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+  animation: fadeInUp 0.4s ease forwards;
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.toast p {
+  margin: 0;
+  font-size: 0.95rem;
+}
+
+/* Success, error, info variations */
+.toast.success {
+  border-left: 6px solid #4caf50;
+  color: #2e7d32;
+}
+
+.toast.error {
+  border-left: 6px solid #e63946;
+  color: #b71c1c;
+}
+
+.toast.info {
+  border-left: 6px solid #6a9df8;
+  color: #1e40af;
+}
+
+/* Smooth fade animation */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
